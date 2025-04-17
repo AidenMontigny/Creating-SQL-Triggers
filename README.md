@@ -14,13 +14,12 @@ This project demonstrates the use of SQL triggers to automate inventory manageme
 <b> Part 1 </b> 
 </p>
 <p align="left">
-The first step of this project was to CREATE a TABLE for “Products”. We did so by utilizing the following query: <br/><br/>
+The first step of this project was to CREATE a TABLE for “Products”. We did so by utilizing <br/>  the following query: <br/><br/>
   <img src="Screenshot 2025-04-17 160044.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
 <p align="left">
-After creating the table, the next step was to insert values into the Products table.
-We added 'PowerSupplies'  <br/> and 'Hard Disks' as the initial products, along with the corresponding values for each. <br/><br/>
+After creating the table, the next step was to insert values into the Products table. We added <br/> 'PowerSupplies' and 'Hard Disks' as the initial products, along with the corresponding  <br/> values for each. <br/><br/>
   <img src="Screenshot 2025-04-17 160628.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
