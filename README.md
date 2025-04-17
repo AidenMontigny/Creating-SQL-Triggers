@@ -24,22 +24,22 @@ After creating the table, the next step was to insert values into the Products t
   <br/>
 </p>
 <p align="left">
-Now that the last command was successful, we used the SELECT statement to retrieve and verify the inserted  <br/> values in the Products table. <br/><br/>
+Now that the last command was successful, we used the SELECT statement to retrieve and <br/> verify the inserted values in the Products table. <br/><br/>
   <img src="Screenshot 2025-04-17 160649.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
 <p align="left">
-Next, we created a trigger on the Product_ReOrder field,as its initial value was set to 0—making it easy to verify  <br/> whether the trigger executed successfully. <br/><br/>
+Next, we created a trigger on the Product_ReOrder field,as its initial value was set to <br/> 0—making it easy to verify whether the trigger executed successfully. <br/><br/>
   <img src="Screenshot 2025-04-17 160703.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
 <p align="left">
-Then, we updated the Product_QOH and Product_MIN values to meet the trigger condition and activate the query. <br/><br/>
+Then, we updated the Product_QOH and Product_MIN values to meet the trigger condition <br/> and activate the query. <br/><br/>
   <img src="Screenshot 2025-04-17 160715.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
 <p align="left">
-Finally, we used the SELECT statement to view the Products table and confirmed that the Product_ReOrder value  <br/> successfully changed from 0 to 1. <br/><br/>
+Finally, we used the SELECT statement to view the Products table and confirmed that the <br/> Product_ReOrder value successfully changed from 0 to 1. <br/><br/>
   <img src="Screenshot 2025-04-17 160730.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
@@ -48,7 +48,7 @@ Finally, we used the SELECT statement to view the Products table and confirmed t
 <b> Part 2 </b> 
 </p>
 <p align="left">
-The first step is to create a new table called audit_log to record the old and new product prices, the date of each  <br/> change,and the corresponding product ID. <br/><br/>
+The first step is to create a new table called audit_log to record the old and new product prices, <br/> the date of each change,and the corresponding product ID. <br/><br/>
   <img src="Screenshot 2025-04-17 160812.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
@@ -58,12 +58,12 @@ Next, we created a trigger on the Price_History to capture and log price changes
   <br/>
 </p>
 <p align="left">
-Then, we updated the Products table by setting a new list price of 50 for the product with a code of 1. <br/><br/>
+Then, we updated the Products table by setting a new list price of 50 for the product with a <br/> code of 1. <br/><br/>
   <img src="Screenshot 2025-04-17 160846.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
 <p align="left">
-Finally, we used the SELECT statement to view the audit_log table and verify the recorded changes. <br/><br/>
+Finally, we used the SELECT statement to view the audit_log table and verify the recorded <br/> changes. <br/><br/>
   <img src="Screenshot 2025-04-17 160859.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 </p>
